@@ -67,7 +67,7 @@ flows:
         to: email_sender
         when: "output.category == 'support' || output.category == 'inquiry'"
         delivery:
-          mode: durableQueue          # business-critical — persisted to MongoDB
+          mode: durable          # business-critical — persisted to MongoDB
           store: mongo
           retryPolicy:
             $ref: "#/components/policies/emailRetry"
@@ -76,7 +76,7 @@ flows:
         to: slack_notifier
         when: "output.priority == 'high'"
         delivery:
-          mode: ephemeralQueue        # burst smoothing via Redis
+          mode: ephemeral        # burst smoothing via Redis
           backend: redis
 
 components:
@@ -100,10 +100,10 @@ Stop hardcoding Kafka everywhere. Each edge in your flow declares exactly the de
 | Mode | Transport | Durability | Best for |
 |------|-----------|------------|----------|
 | `direct` | In-process | None | Fast transforms, cheap steps |
-| `ephemeralQueue` | Redis / NATS | Low | Burst smoothing, worker pools |
-| `checkpoint` | MongoDB / Redis | Stage-level | High-throughput replay |
-| `durableQueue` | MongoDB | Packet-level | Business-critical transitions |
-| `eventBus` | Kafka / Redis | Durable stream | External integration, fan-out |
+| `ephemeral` | Redis / NATS / RabbitMQ | Low | Burst smoothing, worker pools |
+| `checkpoint` | Mongo / Redis / Postgres | Stage-level | High-throughput replay |
+| `durable` | Mongo / Postgres | Packet-level | Business-critical transitions |
+| `stream` | Kafka / Redis / NATS | Durable stream | External integration, fan-out |
 
 ---
 
