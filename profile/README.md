@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://flowdsl.com/logo/logo-light.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://flowdsl.com/logo/logo-dark.svg">
-  <img alt="FlowDSL" height="72" src="https://flowdsl.com/logo/logo-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://flowdsl.com/logo/flowdsl-light.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://flowdsl.com/logo/flowdsl-dark.png">
+  <img alt="FlowDSL" height="72" src="https://flowdsl.com/logo/flowdsl-dark.png">
 </picture>
 
 <br />
