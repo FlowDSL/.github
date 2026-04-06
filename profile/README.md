@@ -17,7 +17,7 @@ _Nodes define business logic. Edges define delivery semantics. The runtime enfor
 
 [![Spec v1.0.0](https://img.shields.io/badge/Spec-v1.0.0-6366f1?style=flat-square&logo=gitbook&logoColor=white)](https://github.com/flowdsl/spec)
 [![Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-22c55e?style=flat-square)](https://github.com/flowdsl/spec/blob/main/LICENSE)
-[![Discord](https://img.shields.io/badge/Discord-Join_Community-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/flowdsl)
+[![Discord](https://img.shields.io/badge/Discord-Join_Community-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/MUjXSwGbUY)
 [![Website](https://img.shields.io/badge/flowdsl.com-000?style=flat-square&logo=vercel&logoColor=white)](https://flowdsl.com)
 
 </div>
@@ -283,13 +283,13 @@ ajv validate -s schemas/flowdsl.schema.json -d examples/your-flow.flowdsl.json
 
 → [CONTRIBUTING.md](https://github.com/flowdsl/spec/blob/main/CONTRIBUTING.md)
 → [Good first issues](https://github.com/flowdsl/spec/labels/good%20first%20issue)
-→ [Discord](https://discord.gg/flowdsl)
+→ [Discord](https://discord.gg/MUjXSwGbUY)
 
 ---
 
 <div align="center">
 
-[Website](https://flowdsl.com) · [Docs](https://flowdsl.com/docs) · [Studio](https://flowdsl.com/studio) · [Node Registry](https://repo.flowdsl.com) · [Discord](https://discord.gg/flowdsl)
+[Website](https://flowdsl.com) · [Docs](https://flowdsl.com/docs) · [Studio](https://flowdsl.com/studio) · [Node Registry](https://repo.flowdsl.com) · [Discord](https://discord.gg/MUjXSwGbUY)
 
 <br />
 
