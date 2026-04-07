@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://flowdsl.com/logo/flowdsl-light.png">
   <source media="(prefers-color-scheme: light)" srcset="https://flowdsl.com/logo/flowdsl-dark.png">
-  <img alt="FlowDSL" height="72" src="https://flowdsl.com/logo/flowdsl-dark.png">
+  <img alt="FlowDSL" height="72" src="https://flowdsl.com/logo/flowdsl-light.png">
 </picture>
 
 <br />
